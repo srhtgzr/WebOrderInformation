@@ -20,6 +20,10 @@ public class LoginPage {
 
     public WebElement loginInput;
 
+    @FindBy(id="github practice")
+
+    public WebElement githubPractice;
+
     @FindBy(id = "ctl00_MainContent_password")
 
     public WebElement passwordInput;
