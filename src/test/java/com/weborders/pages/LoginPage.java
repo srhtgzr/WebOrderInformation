@@ -24,9 +24,15 @@ public class LoginPage {
 
     public WebElement githubPractice;
 
+    @FindBy(id="github practice")
+
+    public WebElement githubPractice2;
+
     @FindBy(id = "ctl00_MainContent_password")
 
     public WebElement passwordInput;
+
+
 
 
     public void login(String username, String password){
