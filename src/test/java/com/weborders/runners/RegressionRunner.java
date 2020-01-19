@@ -10,6 +10,7 @@ import org.junit.runner.RunWith;
                 "src/test/resources/feature/view_all_orders"
         } ,
         glue = "com/weborders/step_definitions",
+        //dryRun = false,
         plugin = {"html:target/default-cucumber-reports",
                 "json:target/cucumber.json"
         }
