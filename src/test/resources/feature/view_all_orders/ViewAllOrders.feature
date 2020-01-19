@@ -16,7 +16,7 @@ Feature:View All Orders Page
   @VerifyTableHeaders
   Scenario: Verify table headers
     Then user verifies table headers as follows
-      | Name        |
+      | Nam        |
       | Product     |
       | #           |
       | Date        |
