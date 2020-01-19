@@ -1,3 +1,4 @@
+@smoke_test
 Feature:View All Orders Page
 
   Background: open login page and login
