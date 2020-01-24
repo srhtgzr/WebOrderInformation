@@ -65,6 +65,7 @@
         <artifactId>maven-surefire-plugin</artifactId>
         <version>3.0.0-M3</version>
         <configuration>
+            <rerunFailingTestsCount>5</rerunFailingTestsCount>
             <includes>
                 <include>**/CukesRunner.java</include>
             </includes>
