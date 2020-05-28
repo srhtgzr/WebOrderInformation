@@ -36,7 +36,7 @@ public class EditOrderStepDefinitions {
 
         for (Map<String, String> each : dataTable) {
             editOrderPage.quantityBox.clear();
-            BrowserUtils.wait(2);
+            BrowserUtils.wait(5);
 
             editOrderPage.quantityBox.sendKeys(each.get("Quantity:"));
 
