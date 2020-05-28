@@ -16,8 +16,9 @@ public class LoginStepDefinitions {
 
     @Given("user is on the login page")
     public void user_is_on_the_login_page() {
-
+        // test git
         Driver.get().get(ConfigurationReader.getProperty("url"));
+
 
 
     }
